@@ -1,0 +1,60 @@
+# ─── Blender MCP Bridge — .gitignore ────────────────────────────────────────
+
+# Local config (contains YOUR absolute paths — never commit this)
+mcp_config.local.json
+.env
+.env.local
+.env.*.local
+
+# Log files (may contain your machine's file paths at runtime)
+*.log
+blender_mcp_listener.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows metadata
+Thumbs.db
+desktop.ini
+
+# IDE folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Exported 3D assets (generated output — don't commit large binaries)
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.mtl
+
+# Rendered images
+*.png
+*.jpg
+*.jpeg
+*.exr
+
+# Blender temp/backup files
+*.blend1
+*.blend2
+
+# OS-generated
+Icon?
+ehthumbs.db

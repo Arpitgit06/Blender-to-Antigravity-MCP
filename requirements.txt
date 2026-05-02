@@ -1,0 +1,8 @@
+# ─── System Python (global env — for MCP server) ────────────────────────────
+# Run: pip install -r requirements.txt
+mcp
+fastmcp          # FastMCP SDK
+httpx            # Used internally by mcp
+
+# ─── Optional but recommended ────────────────────────────────────────────────
+# python-dotenv  # If you want to use a .env file for config
