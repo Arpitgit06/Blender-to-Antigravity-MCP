@@ -270,7 +270,3 @@ Override in `mcp_config.json`'s `env` block.
 - The listener only binds to `127.0.0.1` (localhost) — not exposed on network
 - `exec()` is intentionally used for flexibility — this is a local dev tool
 - Do not expose port 9876 through firewalls or port-forwarding
-
----
-
-*Built for Blender 3.6 LTS / 4.x · FastMCP 2.x · AntiGravity IDE*
